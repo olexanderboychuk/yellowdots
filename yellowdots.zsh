@@ -10,6 +10,6 @@ alias q="cd && clear"
 
 
 #asdf version manager
-#
-#
+ 
+
 
