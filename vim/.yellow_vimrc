@@ -1,0 +1,34 @@
+set background=dark " or light if you prefer the light version
+let g:two_firewatch_italics=1
+colo two-firewatch
+
+set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+set nocompatible
+filetype off  "обязательно!
+
+set rtp+=~/.vim/bundle/vundle/
+
+call vundle#rc()
+
+filetype plugin indent on     " обязательно!
+
+"репозитории на github
+Bundle 'tpope/vim-fugitive'
+Bundle 'lokaltog/vim-easymotion'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'scrooloose/nerdtree'
+Bundle 'vim-ruby/vim-ruby'
+
+"репозитории vim/scripts
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+Bundle 'rails.vim'
+
+"git репозитории (не на github)
+Bundle 'git://git.wincent.com/command-t.git'
+
+map <C-n> :NERDTreeToggle<CR>
