@@ -11,6 +11,8 @@ alias yloadvrc="echo ':so ~/yellowdots/vim/.yellow_vimrc' >> ~/.vimrc"
 
 alias yloadgcf="echo '[include]' >> ~/.gitconfig && echo '  path = ~/yellowdots/git/.yellow_gitconfig' >> ~/.gitconfig"
 
+alias lo="ruby ~/yellowdots/layout/yellow_layout.rb"
+
 #RVM
 alias rl="rvm list"
 alias rgu="rvm gemset use"
