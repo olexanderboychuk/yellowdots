@@ -23,12 +23,11 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'scrooloose/nerdtree'
-Bundle 'vim-ruby/vim-ruby'
 Plugin 'honza/vim-snippets'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
-
+Plugin 'vim-ruby/vim-ruby'
 
 
 "репозитории vim/scripts
