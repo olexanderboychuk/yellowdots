@@ -19,7 +19,7 @@ alias lo="ruby ~/yellowdots/layout/yellow_layout.rb"
 alias rl="rvm list"
 alias rgu="rvm gemset use"
 alias rgl="rvm gemset list"
-
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
 #TODO
 #
