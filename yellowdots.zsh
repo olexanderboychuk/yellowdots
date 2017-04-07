@@ -13,7 +13,9 @@ alias yload_gcf="echo '[include]' >> ~/.gitconfig && echo '  path = ~/yellowdots
 
 alias yload_heroku="wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh"
 
-alias lo="ruby ~/yellowdots/layout/yellow_layout.rb"
+alias cl="ruby ~/yellowdots/layout/yellow_layout.rb"
+
+alias install_dep="sudo ~/yellowdots/yellow_installer/yellow_root.zsh"
 
 #RVM
 alias rl="rvm list"
@@ -24,3 +26,6 @@ alias rgl="rvm gemset list"
 #TODO
 #
 #add function for simple load git aliases
+
+
+#
