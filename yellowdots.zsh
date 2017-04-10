@@ -1,3 +1,9 @@
+#Install dependencies
+alias install_dep="sudo ~/yellowdots/yellow_installer/yellow_dep.zsh"
+
+#Install applications
+alias install_dep="sudo ~/yellowdots/yellow_installer/yellow_app.zsh"
+
 #Aliases
 alias c="clear"
 
@@ -7,21 +13,22 @@ alias pg="sudo -u postgres psql"
 
 alias restart-wifi="sudo service network-manager restart"
 
-alias yload_vrc="echo ':so ~/yellowdots/vim/.yellow_vimrc' >> ~/.vimrc"
+#Aliases YLoad
+alias yload_vimrc="echo ':so ~/yellowdots/vim/.yellow_vimrc' >> ~/.vimrc"
 
-alias yload_gcf="echo '[include]' >> ~/.gitconfig && echo '  path = ~/yellowdots/git/.yellow_gitconfig' >> ~/.gitconfig"
+alias yload_gconfig="echo '[include]' >> ~/.gitconfig && echo '  path = ~/yellowdots/git/.yellow_gitconfig' >> ~/.gitconfig"
 
 alias yload_heroku="wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh"
 
 alias cl="ruby ~/yellowdots/layout/yellow_layout.rb"
 
-alias install_dep="sudo ~/yellowdots/yellow_installer/yellow_root.zsh"
-
 #RVM
-alias rl="rvm list"
-alias rgu="rvm gemset use"
-alias rgl="rvm gemset list"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+alias rlist="rvm list"
+alias ruse="rvm use"
+alias rglist="rvm gemset list"
+alias rgcreate="rvm gemset create"
+alias rguse="rvm gemset use"
+
 
 #TODO
 #

@@ -3,7 +3,7 @@
 **WARNING:** This project is not ready, do not use it.
 
 ```
-> apt install git
+$ apt install git
 ```
 
 ```
@@ -11,7 +11,14 @@ $ cd && git clone https://github.com/sergogovich/yellowdots.git
 $ cd yellowdots
 ```
 
+# Install dependencies
+
 ```
-> install_dep
+$ install_dep
 ```
 
+# Install applications
+
+```
+$ install_app
+```
