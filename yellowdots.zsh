@@ -11,7 +11,7 @@ alias q="cd && clear"
 
 alias pg="sudo -u postgres psql"
 
-alias restart-wifi="sudo service network-manager restart"
+alias wifireboot="sudo service network-manager restart"
 
 #Aliases YLoad
 alias yload_vimrc="echo ':so ~/yellowdots/vim/.yellow_vimrc' >> ~/.vimrc"
@@ -20,6 +20,7 @@ alias yload_gconfig="echo '[include]' >> ~/.gitconfig && echo '  path = ~/yellow
 
 alias yload_heroku="wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh"
 
+#Yellow features
 alias cl="ruby ~/yellowdots/layout/yellow_layout.rb"
 
 #RVM
