@@ -11,13 +11,13 @@ $ cd && git clone https://github.com/sergogovich/yellowdots.git
 $ cd yellowdots
 ```
 
-# Install dependencies
+#### Install dependencies
 
 ```
 $ install_dep
 ```
 
-# Install applications
+#### Install applications
 
 ```
 $ install_app
