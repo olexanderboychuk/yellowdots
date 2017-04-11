@@ -2,7 +2,7 @@
 alias install_dep="sudo ~/yellowdots/yellow_installer/yellow_dep.zsh"
 
 #Install applications
-alias install_dep="sudo ~/yellowdots/yellow_installer/yellow_app.zsh"
+alias install_app="sudo ~/yellowdots/yellow_installer/yellow_app.zsh"
 
 #Aliases
 alias c="clear"
@@ -25,6 +25,7 @@ alias cl="ruby ~/yellowdots/layout/yellow_layout.rb"
 
 #RVM
 alias rlist="rvm list"
+alias rinstall="rvm install"
 alias ruse="rvm use"
 alias rglist="rvm gemset list"
 alias rgcreate="rvm gemset create"
