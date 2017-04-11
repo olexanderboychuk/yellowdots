@@ -13,3 +13,5 @@ install_dependencies(){
   y_rvm
   y_ruby
 }
+
+install_dependencies

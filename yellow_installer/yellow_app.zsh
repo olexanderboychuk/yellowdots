@@ -1,5 +1,5 @@
 #Require 
-. ~/yellowdots/yellow_installer/yellowdots_dep.zsh
+#. ~/yellowdots/yellow_installer/yellowdots_dep.zsh
 
 #Install RVM
 install_rvm(){
@@ -31,4 +31,6 @@ install_packages(){
   install_rvm
   install_postgres
 }
+
+install_packages
 
