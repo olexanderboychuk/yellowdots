@@ -23,6 +23,8 @@ install_curl(){
   apt install curl 
 }
 
+
+#Main fonction for install apps
 install_packages(){
   install_curl
   install_git
